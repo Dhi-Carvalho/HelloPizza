@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
     <title>Hello Pizza</title>
 </head>
 <body>
@@ -17,7 +20,7 @@
         </nav>
     </header>
     <section>
-        <ul>
+        <ul id="vantagens">
             <li>Qualidade</li>
             <li>Sabor</li>
             <li>Praticidade</li>
@@ -27,7 +30,7 @@
     <section>
         <h2>Sabores</h2>
         <p>Conheça os nossos <strong>5 sabores</strong> de pizza!</p>
-        <img src="" alt="">
+        <img src="/img/sabores-pizzas.png" alt="">
         <table>
             <tr>
                 <th>Pizzas</th>
@@ -39,45 +42,45 @@
             <tr>
                 <td>Mozzarella</td>
                 <td rowspan="6">Sim</td>
-                <td>Não</td>
-                <td>Não</td>
-                <td>Não</td>
+                <td class="texto-negativo">Não</td>
+                <td class="texto-negativo">Não</td>
+                <td class="texto-negativo">Não</td>
             </tr>
             <tr>
                 <td>Calabresa</td>
-                <td>Não</td>
-                <td>Sim</td>
-                <td>Sim</td>
+                <td class="texto-negativo">Não</td>
+                <td class="texto-positivo">Sim</td>
+                <td class="texto-positivo">Sim</td>
             </tr>
             <tr>
                 <td>Pepperoni</td>
-                <td>Não</td>
-                <td>Sim</td>
-                <td>Sim</td>
+                <td class="texto-negativo">Não</td>
+                <td class="texto-positivo">Sim</td>
+                <td class="texto-positivo">Sim</td>
             </tr>
             <tr>
                 <td>Marguerita</td>
-                <td>Sim</td>
-                <td>Sim</td>
-                <td>Sim</td>
+                <td class="texto-positivo">Sim</td>
+                <td class="texto-positivo">Sim</td>
+                <td class="texto-positivo">Sim</td>
             </tr>
             <tr>
                 <td>Portuguesa</td>
-                <td>Sim</td>
-                <td>Sim</td>
-                <td>Sim</td>
+                <td class="texto-positivo">Sim</td>
+                <td class="texto-positivo">Sim</td>
+                <td class="texto-positivo">Sim</td>
             </tr>
             <tr>
                 <td>Alho</td>
-                <td>Não</td>
-                <td>Não</td>
-                <td>Não</td>
+                <td class="texto-negativo">Não</td>
+                <td class="texto-negativo">Não</td>
+                <td class="texto-negativo">Não</td>
             </tr>
         </table>
     </section>
     <section>
         <h2>Contato</h2>
-        <form action="http://arquivo.devmedia.com.br/projeto/requisicao.php" method="POST">
+        <form action="" method="POST">
         <label for="">Nome:</label>
         <input type="text" name="nome">
         <label for="">E-Mail:</label>
